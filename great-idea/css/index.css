@@ -63,4 +63,128 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	width: 880px;
+	/* border: 10px dashed black; */
+	margin: auto;
+}
+
+header {
+	/* border: 5px dashed orange; */
+	padding: 20px 20px 20px;
+    display: flex;
+
+}
+
+nav {
+	/* border: 3px solid red; */
+	width: 75%;
+}
+nav a {
+	color: grey;
+	text-decoration: none;
+	padding: 0 25px 0px;
+	/* border: 3px solid blue; */
+}
+
+.intro-container {
+    display: flex;
+	text-align: center;
+	/* border: 3px solid green; */
+}
+.intro  {
+	/* border: 4px dashed red; */
+	width: 450px;
+	text-align: center;
+	padding: 80px 60px 80px;
+}
+
+ .intro h1 {
+	font-size: 50pt;
+	/* border: 1px dashed red; */
+}  
+
+
+.introimg {
+	width: 30%;
+	/* border: 1px dashed red; */
+	display: flex;
+	/* TRBL*/
+	padding: 50px 10px 10px 20px;
+}
+
+.intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
+}
+
+header p {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+}
+.codeimg {
+	width: 30%;
+	height: 30%;
+	/*TRBL*/
+	padding: 0 20px 20px 100px;
+}
+
+.top-content {
+    display: flex;
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
+}
+
+
+.top-content .features {
+
+	/* border: 1px solid red; */
+	width: 49%;
+	margin-right: 5px;
+}
+
+.top-content .about {
+
+	/* border: 1px solid red; */
+	width: 49%;
+}
+
+.middle-img {
+
+	width: 100%;
+}
+
+.bottom-content {
+  display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px 0 30px;
+}
+
+.bottom-content .services {
+	
+	width: 32%;
+	/* border: 1px solid red; */
+
+}
+
+.bottom-content .product {
+	
+	width: 32%;
+	margin: 0px 10px 0px;
+}
+
+.bottom-content .vision {
+	
+	width: 32%;
+}
+
+.contact-content {
+	margin-top: 30px;
+}
+footer p {
+	text-align: center;
+}
