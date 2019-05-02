@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* Code for the Services Section */
+
 .container {
 	width: 880px;
 	/* border: 10px dashed black; */ 
@@ -93,49 +95,26 @@ nav a {
 	/* border: 3px solid blue; */	
 }
 
-.intro-container {
+.first-image { 
     display: flex;
-	/*border: 3px solid green;*/
-}
-.intro {
-	/*border: 4px dashed red;*/ 
-	flex-wrap: wrap;
-	width: 450px;
-	padding: 80px 60px 80px;
-	text-align: center;
-	justify-content: center;	
-}
-
-.intro button {
-	background-color: white;
-	text-align: center;
-	margin: 20px;
-	font-size: 14px;
-	height: 35px;
-	width: 160px;
-	
-}
+    flex-wrap: wrap;
+    height: 80px;
+    width: 500000px;
+    border: 3px solid red;
+} 
 
 .intro h1 {
-	font-size: 55pt;
-	/* border: 1px dashed red; */
+    display:flex;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+    font-size: 20pt; 
 }  
 
-
-.introimg {
-	width: 45%;
-	height: 475px;
-	/* border: 1px dashed red; */ 
-	display: flex;
-	/* TRBL*/
-	padding: 50px 5px 50px 5px;
-}
-
-.intro button {
-	margin: -5px;
-	padding: 5px 40px 5px;
-	border: 1px solid black;
-	font-family: 'Titillium Web';
+.intro p {
+    border: 1px solid red;
+    padding: 0px;
+    margin: 30px;
 }
 
 header p {
@@ -143,78 +122,118 @@ header p {
 	border: 1px solid black;
 	width: 150px;
 }
-.codeimg {
-	width: 30%;
-	height: 30%;
-	/*TRBL*/
-	padding: 0 20px 20px 100px;
+
+.middle-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.top-content {
+button {
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap
+    margin:200px;
+    background-color: white; 
+    border: 1px solid red;
+}
+
+.button p {
+    display:flex;
+    border: 1px solid red; 
+    height: 
+}
+
+.first-row {
 	font-size: 14px;
     display: flex;
 	border-top: 1px solid black;
 	padding: 30px 0 30px;
 }
 
-
-.top-content .features {
-
-	/* border: 1px solid red; */ 
-	width: 49%;
-	padding: 10px;
+.first-row .digitaldesign {
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
 }
 
-.top-content .about {
-
-	/* border: 1px solid red; */
-	width: 49%;
-	padding: 10px;
+.first-row .uxui {
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
 }
 
-.middle-img {
-
-	width: 95%;
-}
-
-.bottom-content {
+.second-row {
 	font-size: 14px;
     display: flex;
-	border-bottom: 1px solid black;
 	padding: 30px 0 30px;
 }
 
-.bottom-content .services {
-	
-	width: 32%;
-	padding: 15px;
-	/* border: 1px solid red; */
-
+.second-row .marketing {
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
 }
 
-.bottom-content .product {
-	
-	width: 32%;
-	padding: 15px;
-	margin: 0px 10px 0px;
+.second-row .webdev {
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
 }
 
-.bottom-content .vision {
-
-	width: 32%;
-	padding: 15px;
+.third-row {
+    font-size: 14px;
+    display: flex;
+	padding: 30px 0 30px;
+    border-bottom: 1px solid black;
 }
 
-.contact-content {
-	margin-top: 30px;
+.third-row .ios {
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
 }
 
-.contact-content h2 {
-	font-size: 16px;
+.third-row .android {
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
 }
 
-.contact-content address {
-	color: grey;
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+	border-bottom: 1px solid black;
+    padding: 30px 30px; 
+}
+
+.bottom-content p {
+    width: 40%;
+    font-size: 14px;
+}
+
+.bottom-content ol { 
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    padding: 20px;
+    font-size: 14px;  
 }
 
 footer p {
